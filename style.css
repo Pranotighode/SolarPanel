@@ -1,0 +1,128 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    align-items: left;
+    
+}
+
+header {
+    background-color:  #595b57;
+    color: #09cc13c9;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+   
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+  
+}
+
+nav ul li a {
+    color: #f3f0ed;
+    text-decoration: none;
+}
+
+
+#banner {
+  
+    text-align: center;
+    
+}
+#topimg{
+    width: 100%;
+    height: 200px;
+}
+
+
+#cont2{
+    size: 700px 500px;
+   
+    
+}
+
+#banner h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    position: absolute;
+    top: 10%; 
+    right: 20px; 
+    transform: translateY(-50%); 
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+#homepage{
+   
+    display: grid; /* Use CSS grid */
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    column-gap: 20px; /* Add gap between columns */
+    height: 400px;
+}
+#con1{
+    background-image: url(bimg.jpg);
+    size: 50px 50px;
+}
+#info{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    column-gap: 20px;
+    height: 400px;
+
+}
+#con4{
+    background-image: url(info.jpg);
+    size: 50px 50px;
+}
+
+
+#about {
+    background-color: #e7e0e0;
+    padding: 50px 0;
+    text-align: center;
+ 
+}
+
+
+footer {
+    background-color: #010200;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+a[href="#banner"]:hover,
+a[href="#about"]:hover,
+a[href="#info"]:hover,
+a[href="#contact"]:hover{
+    
+   
+    color: #ff0000;
+    
+}
+
