@@ -1,128 +1,135 @@
-
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
-    align-items: left;
-    
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 header {
-    background-color:  #595b57;
-    color: #09cc13c9;
-    padding: 20px 0;
+  background-color: #373838;
+  color: #ffffff;
+  padding: 15px 0;
 }
 
 header h1 {
-    margin: 0;
+  margin: 0;
+  text-align: left;
+  padding-left: 20px;
+}
+
+nav {
+  text-align: left;
+  padding-left: 20px;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-   
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
-  
+  display: inline-block;
+  margin-right: 20px;
 }
 
 nav ul li a {
-    color: #f3f0ed;
-    text-decoration: none;
-}
-
-
-#banner {
-  
-    text-align: center;
-    
-}
-#topimg{
-    width: 100%;
-    height: 200px;
-}
-
-
-#cont2{
-    size: 700px 500px;
-   
-    
-}
-
-#banner h2 {
-    margin-bottom: 20px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .btn {
-    position: absolute;
-    top: 10%; 
-    right: 20px; 
-    transform: translateY(-50%); 
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+  display: inline-block;
+  margin: 10px 20px 0 auto;
+  padding: 10px 20px;
+  background-color: #0e86f6;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  align-items: right;
 }
 
 .btn:hover {
-    background-color: #0056b3;
+  background-color: #6a7179;
 }
 
-#homepage{
-   
-    display: grid; /* Use CSS grid */
-    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-    column-gap: 20px; /* Add gap between columns */
-    height: 400px;
-}
-#con1{
-    background-image: url(bimg.jpg);
-    size: 50px 50px;
-}
-#info{
-    display: grid;
-    grid-template-columns: 1fr 1fr; 
-    column-gap: 20px;
-    height: 400px;
-
-}
-#con4{
-    background-image: url(info.jpg);
-    size: 50px 50px;
+#homepage {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+#homepage .container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+#homepage .container:last-child {
+  margin-right: 0;
+}
+
+#homepage .container img {
+  width: 100%;
+  height: auto;
+}
+#info {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#info .container {
+  flex: 1;
+  margin-right: 20px;
+}
+
+#info .container:last-child {
+  margin-right: 0;
+}
+
+#info .container img {
+  width: 100%;
+  height: auto;
+}
+#banner {
+  position: relative;
+  text-align: center;
+}
+
+#topimg {
+  width: 100%;
+  height: 50vh;
+  display: block;
+}
 
 #about {
-    background-color: #e7e0e0;
-    padding: 50px 0;
-    text-align: center;
- 
+  background-color: #e7e0e0;
+  padding: 20px;
+  text-align: center;
 }
 
+#about .container h2 {
+  margin-bottom: 10px;
+}
+
+#about .container p {
+  text-align: left;
+}
+
+#about p {
+  margin-bottom: 10px;
+}
 
 footer {
-    background-color: #010200;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+  background-color: #010200;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
 }
-
-a[href="#banner"]:hover,
-a[href="#about"]:hover,
-a[href="#info"]:hover,
-a[href="#contact"]:hover{
-    
-   
-    color: #ff0000;
-    
-}
-
